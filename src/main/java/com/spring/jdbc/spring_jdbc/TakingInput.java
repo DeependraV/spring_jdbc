@@ -40,7 +40,7 @@ public class TakingInput {
         System.out.println("Enter City ");
         String city=sc.nextLine();
         System.out.println("Enter Your ID");
-        Integer id=sc.nextInt();
+        int id=sc.nextInt();
         setCity(city);
         setName(name);
         setId(id);

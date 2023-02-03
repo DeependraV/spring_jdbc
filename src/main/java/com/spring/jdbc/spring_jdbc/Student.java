@@ -32,6 +32,15 @@ public class Student {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", city='" + city + '\'' +
+                ", name='" + name + '\'' +
+                '}'+"\n";
+    }
+
     public Student(int id, String city, String name) {
         this.id = id;
         this.city = city;
